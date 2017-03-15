@@ -6,13 +6,13 @@ path=$1
 jdkFilePath=$2
 
 #bulid the directory if ti is null, and show you the process
-if [ ! -d "path" ]; then 
-    mkdir "path"
+if [ ! -d $path ]; then 
+    mkdir "$path"
     echo "have made the directory"
 fi
 
 #if the jdkFile is not exsit, stop the script, and tell the user
-if [ ! -f "jdkFilePath" ]; then
+if [ ! -f $jdkFilePath ]; then
     echo "the jdkFile is not exsit!"
     exit
 fi
