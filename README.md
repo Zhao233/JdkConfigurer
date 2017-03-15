@@ -1,0 +1,2 @@
+# JdkConfigurer
+automatic jdk configurer
